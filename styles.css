@@ -1,0 +1,125 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('image/recipebackground.webp'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#add-recipe {
+    width: 40%;
+}
+
+#recipe-list {
+    width: 60%;
+}
+
+#search {
+    width: 100%;
+}
+
+#recipe-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: #8a934e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #889789;
+}
+
+#recipes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#recipes li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#recipes li:last-child {
+    border-bottom: none;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#search-btn {
+    background-color: #6f919b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #515b51;
+}
+
+#search-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#search-results li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#search-results li:last-child {
+    border-bottom: none;
+}
