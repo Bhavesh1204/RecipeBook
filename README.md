@@ -36,7 +36,7 @@ The Recipe Book application is a simple and intuitive tool for managing your fav
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Bhavesh/recipe-book.git
+   git clone https://github.com/Bhavesh1204/recipe-book.git
    cd recipe-book
 
 2.  Open the Application:
@@ -63,7 +63,7 @@ Contact
 If you have any questions, suggestions, or issues, please feel free to reach out:
 
 Email: [22amtics478@gmail.com]
-GitHub: []
+GitHub: [https://github.com/Bhavesh1204]
 
 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project as per the terms of the license.
